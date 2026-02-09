@@ -66,7 +66,7 @@ ENCODED_PROMPT=$(jq -Rs . < "$PROMPT_FILE")
 
 # Create the JSON payload file
 printf "{\n" > "$JSON_FILE"
-printf "  \"model\": \"gpt-4\",\n" >> "$JSON_FILE"
+printf "  \"model\": \"gpt-4o\",\n" >> "$JSON_FILE"
 printf "  \"messages\": [\n" >> "$JSON_FILE"
 printf "    {\n" >> "$JSON_FILE"
 printf "      \"role\": \"user\",\n" >> "$JSON_FILE"
