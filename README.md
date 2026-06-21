@@ -1,6 +1,6 @@
-# NSW Email Design System Issue Tracker
+# NSW Email Toolkit Issue Tracker
 
-This repository keeps track of issues in the [NSW Email Design System](https://email.designsystem.nsw.gov.au).
+This repository keeps track of issues in the [NSW Email Toolkit](https://email.digital.nsw.gov.au).
 
 > **Note:** This repo is for **issues only** – it does not contain the email templates, components, or source code. Those live in separate implementation repositories.
 
@@ -45,7 +45,7 @@ If you’re unsure whether something belongs here, open an issue anyway and we�
 1. **Search existing issues**
    - Check both open and closed issues for similar reports or discussions.
 2. **Check the design system site**
-   - Review the [NSW Email Design System documentation](https://email.designsystem.nsw.gov.au) for existing guidance, patterns, and usage notes.
+   - Review the [NSW Email Toolkit documentation](https://email.digital.nsw.gov.au) for existing guidance, patterns, and usage notes.
 
 If you find a related issue, feel free to add a comment instead of opening a new one.
 
@@ -118,7 +118,7 @@ If or when code contributions (PRs) are accepted for related implementation repo
 
 ## Links
 
-- 🌐 NSW Email Design System: https://email.designsystem.nsw.gov.au
+- 🌐 NSW Email Toolkit: https://email.digital.nsw.gov.au
 - 📝 Issue Tracker (this repo): use the **Issues** tab
 
 ---
