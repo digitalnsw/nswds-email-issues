@@ -5,5 +5,25 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "scripts": {}
+  "scripts": {
+    "prepare": "husky",
+    "branch:create": "scripts/create-branch.sh",
+    "branch:suggest": "scripts/suggest-branch-name.sh",
+    "branch:suggest:create": "scripts/suggest-branch-name.sh --create",
+    "commit": "scripts/git-commit.sh",
+    "pr": "scripts/pull-request.sh",
+    "snyk:check": "bash -lc 'npm exec --yes --package snyk@latest -- snyk test --all-projects --exclude=fixtures,.next --json-file-output=snyk-analysis.json; code=$?; if [ $code -eq 0 ] || [ $code -eq 1 ]; then exit 0; fi; exit $code'",
+    "snyk:monitor": "npm exec --yes --package snyk@latest -- snyk monitor --all-projects --exclude=fixtures,.next"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.9",
+    "@semantic-release/release-notes-generator": "^14.1.1",
+    "husky": "^9.1.7",
+    "semantic-release": "^25.0.7"
+  }
 }
