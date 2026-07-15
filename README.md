@@ -122,3 +122,5 @@ If or when code contributions (PRs) are accepted for related implementation repo
 - 📝 Issue Tracker (this repo): use the **Issues** tab
 
 ---
+
+<!-- CI verification after nswds-devops went public (2026-07-15) -->
